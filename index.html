@@ -127,7 +127,8 @@
             <i class="material-icons prefix">account_circle</i>
             <input  class="validate" type="text" id="user" data-length="20" max-length="20">
             <label for="user">User</label>
-            <span class="helper-text" data-error="one error" data-sucess="sucessfull">default msg</span>
+            <span class="helper-text" data-error="one error" data-sucess="done">default msg</span>
+            <!-- data-sucess not working , deprecated ? -->
           </div>
         </div>
 
@@ -162,7 +163,26 @@
           <div class="file-field input-field">
             <div class="btn grey darken-4">
               <span><i class="material-icons">file_upload</i></span>
-              <input type="file">
+              <!-- test adding accept prop to limit UX for files choices -->
+              <!-- <input type="file" accept="application/pdf, application/vnd.ms-excel"> FOR PDF AND EXCEL  -->
+              <input type="file" accept="image/png, image/jpeg">   <!-- for images -->
+            </div>
+            <div class="file-path-wrapper">
+              <input placeholder="Upload profile image" class="file-path validate" type="text">
+            </div>
+          </div>
+
+<!-- TEST TEST TEST upload image with preview -->
+          <div class="file-field input-field">
+            <input accept="image/*" type='file' id="imgInp" />
+            <img id="blah" src="#" alt="your image" />
+
+            <div class="btn grey darken-4">
+              <span><i class="material-icons">file_upload</i></span>
+              <!-- test adding accept prop to limit UX for files choices -->
+              <!-- <input type="file" accept="application/pdf, application/vnd.ms-excel"> FOR PDF AND EXCEL  -->
+              <input type="file" accept="image/png, image/jpeg" id="uploadedProfileImg">   <!-- for images -->
+              <img id="showProfileImg" src="#" alt="profile image" />
             </div>
             <div class="file-path-wrapper">
               <input placeholder="Upload profile image" class="file-path validate" type="text">

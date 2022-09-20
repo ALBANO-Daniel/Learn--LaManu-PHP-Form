@@ -71,3 +71,11 @@ function check() {
 //     $('input#input_text, textarea#textarea2').characterCounter();
 //   });
         
+
+// js for the preview image upload 
+uploadedProfileImg.onchange = evt => {
+    const [file] = uploadedProfileImg.files
+    if (file) {
+      showProfileImg.src = URL.createObjectURL(file)
+    }
+  }
