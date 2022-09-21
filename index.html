@@ -100,6 +100,25 @@
 
           <div class="row">
             <div class="input-field col s12">
+              <div class="modal datepicker-modal" id="modal-0acbcc7b-0210-c744-0b5d-c540b1d88746"
+                                tabindex="0">
+                                <div class="modal-content datepicker-container">
+                                    <div class="datepicker-date-display"><span class="year-text"></span><span
+                                            class="date-text"></span></div>
+                                    <div class="datepicker-calendar-container">
+                                        <div class="datepicker-calendar"></div>
+                                        <div class="datepicker-footer"><button
+                                                class="btn-flat datepicker-clear waves-effect"
+                                                style="visibility: hidden;" type="button"></button>
+                                            <div class="confirmation-btns"><button
+                                                    class="btn-flat datepicker-cancel waves-effect"
+                                                    type="button">Cancel</button><button
+                                                    class="btn-flat datepicker-done waves-effect"
+                                                    type="button">Ok</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
               <input type="text" id="birthday" class="datepicker">
               <label for="birthday">date de nascenc</label>
             </div>
@@ -201,13 +220,14 @@
     <input 
       placeholder="Name should not contain @,;:" 
       id="first_name" 
-      onblur="check()"                    
-      onfocus="check()" 
-      onchange="check()" 
       type="text" 
       class="validate"
-    >
-    <label for="first_name">UserName</label>
+        >
+      <!-- onblur="check()"                     -->
+      <!-- onfocus="check()"  -->
+      <!-- onchange="check()"  -->
+    
+    <label for="first_name">UserName!</label>
     <span class="helper-text" data-error="wrong" data-success="right"></span>
   </div>
 </div>
