@@ -1,9 +1,9 @@
-// const Calendar = document.querySelector('.datepicker');
+const Calendar = document.querySelector('.datepicker');
 
-document.addEventListener('DOMContentLoaded', function() {
-  const Calendar = document.querySelector('.datepicker');
-  var instances = M.Datepicker.init(Calendar);
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   const Calendar = document.querySelector('.datepicker');
+//   var instances = M.Datepicker.init(elems, options);
+// });
 
 // const now = new Date;
 // const now2 = Number(now.getFullYear());
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // const now = Date.parse();
 // console.log(now2)
 
-/*
+
 M.Datepicker.init(Calendar,{
       i18n:{   // French setup
         clear: 'effacer',
@@ -23,6 +23,7 @@ M.Datepicker.init(Calendar,{
         weekdaysShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
         weekdaysAbbrev: ['D', 'L', 'M', 'M', 'J', 'V', 'S']
       },
+      yearRange: [1910,2022],
       showMonthAfterYear: true,
       // yearRange: 200,
       // minDate: '-1893456000000',
@@ -34,7 +35,7 @@ M.Datepicker.init(Calendar,{
       format:'dd/mm/yyyy'
 });
 
-*/
+
 
 
     // console.log(Calendar);
