@@ -23,7 +23,7 @@ M.Datepicker.init(Calendar,{
         weekdaysShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
         weekdaysAbbrev: ['D', 'L', 'M', 'M', 'J', 'V', 'S']
       },
-      yearRange: [1910,2022],
+      yearRange: [1920,2022],
       showMonthAfterYear: true,
       // yearRange: 200,
       // minDate: '-1893456000000',

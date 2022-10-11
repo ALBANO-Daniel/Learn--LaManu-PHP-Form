@@ -8,8 +8,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./node_modules/materialize-css/dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
 </head>
 
 <body>
@@ -36,7 +36,7 @@
           <h5 class="header col s12 light">Découvrez nos offres d'assurance auto, moto, habitation, santé, prévoyance et épargne. Simulation de prix et devis gratuits en ligne.</h5>
         </div>
         <div class="row center">
-          <a href="#Form" id="download-button" class="btn-large waves-effect waves-light grey darken-4">Get Started</a>
+          <a href="#form" id="download-button" class="btn-large waves-effect waves-light grey darken-4">Get Started</a>
         </div>
 
       </div>
@@ -100,25 +100,6 @@
 
           <div class="row">
             <div class="input-field col s12">
-              <div class="modal datepicker-modal" id="modal-0acbcc7b-0210-c744-0b5d-c540b1d88746"
-                                tabindex="0">
-                                <div class="modal-content datepicker-container">
-                                    <div class="datepicker-date-display"><span class="year-text"></span><span
-                                            class="date-text"></span></div>
-                                    <div class="datepicker-calendar-container">
-                                        <div class="datepicker-calendar"></div>
-                                        <div class="datepicker-footer"><button
-                                                class="btn-flat datepicker-clear waves-effect"
-                                                style="visibility: hidden;" type="button"></button>
-                                            <div class="confirmation-btns"><button
-                                                    class="btn-flat datepicker-cancel waves-effect"
-                                                    type="button">Cancel</button><button
-                                                    class="btn-flat datepicker-done waves-effect"
-                                                    type="button">Ok</button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
               <input type="text" id="birthday" class="datepicker">
               <label for="birthday">date de nascenc</label>
             </div>
@@ -151,29 +132,16 @@
           </div>
         </div>
 
-
-          <!-- 
-            disable input 
-            <div class="row">
-            <div class="input-field col s12">
-              <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-              <label for="disabled">Disabled</label>
-            </div>
-          </div> -->
-
-
           <div class="row">
-            <i class="material-icons prefix">email</i>
             <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
               <input id="email" type="email" class="validate">
               <label for="email">Email</label>
-
-
             </div>
           </div>
           <div class="row">
-            <i class="material-icons prefix">lock</i>
             <div class="input-field col s12">
+              <i class="material-icons prefix">lock</i>
               <input id="password" type="password" class="validate">
               <label for="password">Password</label>
             </div>
@@ -293,9 +261,9 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+  <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <!-- <script src="js/init.js"></script> -->
   <script src="./js/index.js"></script>
 
 </body>
